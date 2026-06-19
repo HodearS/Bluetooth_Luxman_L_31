@@ -1,0 +1,2772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\Projet Kicad\Module Bluetooth Pour Luxman L-31\Bluetooth_L_31_buck_ilot\Bluetooth_L_31.kicad_sch</source>
+    <date>2026-06-19T23:25:48</date>
+    <tool>Eeschema 10.0.3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Bluetooth Module For Luxman L-31</title>
+        <company>NDH</company>
+        <rev>V1.0</rev>
+        <date>2026-06-17</date>
+        <source>Bluetooth_L_31.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B104KCFSFNE</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B104KCFSFNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfcfa363-a875-4ee5-bd99-305db71382a1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B105KBFNNNF</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B105KBFNNNF</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e3c924b7-4d3d-4e95-b621-392cb0cbde24</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B105KBFNNNF</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B105KBFNNNF</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fabed3bd-9347-413b-aacb-e0330cfff1fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>CL32B106KMVNNWE</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL32B106KMVNNWE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36de677d-1f8f-497f-b91e-fcf15e0d5bd9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>4700pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>08051A472KAT2A</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">08051A472KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db3e578f-b068-49a6-bf77-63b9d66915ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>GRM32DL8EL475KE07L</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">GRM32DL8EL475KE07L</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="CP_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9744e000-ffe3-4a48-a036-a36f9c57a07f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>4700pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>08051A472KAT2A</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">08051A472KAT2A</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3f330b6-0c2e-4e24-a406-3d5c62444094</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>GRM32DL8EL475KE07L</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">GRM32DL8EL475KE07L</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>399d8f33-18fc-4f86-827e-5e66365ca9b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B105KBFNNNF</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B105KBFNNNF</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed9bfaa1-d494-4084-a8c9-56f99c155321</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B105KBFNNNF</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B105KBFNNNF</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3dd969eb-1f2a-4577-955e-bc0190901e46</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B104KCFSFNE</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B104KCFSFNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0eb7fc67-4812-4bca-a477-5e76b6436411</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>GRM21BZ71E106KE15K</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">GRM21BZ71E106KE15K</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01c1220a-9b8a-431f-ba57-1b83ca064648</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B105KBFNNNF</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B105KBFNNNF</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2df35fe-f740-4ea0-9e26-b2e5d292b163</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B104KCFSFNE</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B104KCFSFNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73ad8a6e-dcec-4fc9-88f7-7c819b5cbb6c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>330pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>GRM2165C2A331JA01D</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">GRM2165C2A331JA01D</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4120db37-bb43-485b-835f-16fa7203ef84</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B105KBFNNNF</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B105KBFNNNF</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5cea402-34b8-4559-be44-fbf12cc0b313</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B105KBFNNNF</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B105KBFNNNF</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>44697650-7584-4b03-9e36-f812ed46263c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>CL32B226KAJNNNE</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL32B226KAJNNNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5fb62cf-6111-49e0-a7c2-977bd41800a0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B225KAFNNNF</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B225KAFNNNF</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a2261c2-6730-4961-8947-bad22797920d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>GRM21BZ71E106KE15K</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">GRM21BZ71E106KE15K</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baa9942e-507b-4bf9-8f1a-1ed73fc6eaec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C21">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>GRM21BZ71E106KE15K</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">GRM21BZ71E106KE15K</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d8158fa-bb56-4ceb-925e-ec795ad5e3e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C22">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B105KBFNNNF</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B105KBFNNNF</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7cf4a0e3-50a9-4f99-ab02-b6b9c528346c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C23">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B104KCFSFNE</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B104KCFSFNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47c11142-f67c-4d73-ac70-717628eb1a5b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C24">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>CL21B104KCFSFNE</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">CL21B104KCFSFNE</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1b93c28-0489-4690-9626-2c96843e34a0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>B360</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <datasheet>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</datasheet>
+      <description>B360-13-F</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMC</field>
+        <field name="Datasheet">http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</field>
+        <field name="Description">B360-13-F</field>
+      </fields>
+      <libsource lib="Diode" part="B360" description="60V 3A Schottky Barrier Rectifier Diode, SMC"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMC*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70d023f6-465f-4e07-9e6e-4a470ab1b996</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>SMAJ48A</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</datasheet>
+      <description>SMAJ48A</description>
+      <fields>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</field>
+        <field name="Description">SMAJ48A</field>
+      </fields>
+      <libsource lib="Diode" part="SMAJ48A" description="400W unidirectional Transient Voltage Suppressor, 48.0Vr, SMA(DO-214AC)"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="unidirectional diode TVS voltage suppressor"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>079d590d-4597-45ff-888e-7c063c2eb69c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <fields>
+        <field name="Sim.Device">1N4148W-7-F</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Description">100V 0.15A standard switching diode, DO-35</field>
+      </fields>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sim.Device" value="1N4148W-7-F"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="D*DO?35*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d2fe85d-fe84-4b9f-b6e3-201e34ddaae8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <description>150080GS75000</description>
+      <fields>
+        <field name="Sim.Pins">1=K 2=A</field>
+        <field name="Footprint">LED_SMD:LED_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">150080GS75000</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28eed00f-598e-4474-81b5-400e6f62aed9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>1727010</value>
+      <footprint>NewLibrary:PHOENIX_1727010</footprint>
+      <description>1727010</description>
+      <fields>
+        <field name="MF"/>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/1727010/Phoenix+Contact/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">03.03.2021</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/1727010/Phoenix+Contact/view-part/?ref=snap</field>
+        <field name="MP">1727010</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+        <field name="Footprint">NewLibrary:PHOENIX_1727010</field>
+        <field name="Datasheet"/>
+        <field name="Description">1727010</field>
+      </fields>
+      <libsource lib="Libglobal" part="1727010" description="PCB Terminal Screw 3.81mm 16AWG 200V 13.5A 2 Position COMBICON MKDS Series | Phoenix Contact 1727010"/>
+      <property name="MF" value=""/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/1727010/Phoenix+Contact/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="03.03.2021"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/1727010/Phoenix+Contact/view-part/?ref=snap"/>
+      <property name="MP" value="1727010"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02e20cc8-bafd-4e32-a2ee-79afd87487aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="01"/>
+            <pin num="02"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>1727023</value>
+      <footprint>NewLibrary:PHOENIX_1727023</footprint>
+      <description>1727023</description>
+      <fields>
+        <field name="MF">Phoenix Contact</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/1727023/Phoenix+Contact/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">03.03.2021</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/1727023/Phoenix+Contact/view-part/?ref=snap</field>
+        <field name="MP">1727023</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+        <field name="Footprint">NewLibrary:PHOENIX_1727023</field>
+        <field name="Datasheet"/>
+        <field name="Description">1727023</field>
+      </fields>
+      <libsource lib="Libglobal" part="1727023" description="PCB Terminal Screw 3.81mm 16AWG 200V 13.5A 3 Position COMBICON MKDS Series | Phoenix Contact 1727023"/>
+      <property name="MF" value="Phoenix Contact"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/1727023/Phoenix+Contact/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="03.03.2021"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/1727023/Phoenix+Contact/view-part/?ref=snap"/>
+      <property name="MP" value="1727023"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79382261-192c-41f8-91e1-74027795cc1b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="01"/>
+            <pin num="02"/>
+            <pin num="03"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>1727023</value>
+      <footprint>NewLibrary:PHOENIX_1727023</footprint>
+      <description>1727023</description>
+      <fields>
+        <field name="MF">Phoenix Contact</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/1727023/Phoenix+Contact/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">03.03.2021</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/1727023/Phoenix+Contact/view-part/?ref=snap</field>
+        <field name="MP">1727023</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+        <field name="Footprint">NewLibrary:PHOENIX_1727023</field>
+        <field name="Datasheet"/>
+        <field name="Description">1727023</field>
+      </fields>
+      <libsource lib="Libglobal" part="1727023" description="PCB Terminal Screw 3.81mm 16AWG 200V 13.5A 3 Position COMBICON MKDS Series | Phoenix Contact 1727023"/>
+      <property name="MF" value="Phoenix Contact"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/1727023/Phoenix+Contact/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="03.03.2021"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/1727023/Phoenix+Contact/view-part/?ref=snap"/>
+      <property name="MP" value="1727023"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Phoenix Contact"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bb61250-da7e-4ed7-8a5c-a0bffc0b7f8b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="01"/>
+            <pin num="02"/>
+            <pin num="03"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>B3B-PH-SM4-TB_LF__SN_</value>
+      <footprint>NewLibrary:JST_B3B-PH-SM4-TB_LF__SN_</footprint>
+      <description>B3B-PH-SM4-TB(LF)(SN)</description>
+      <fields>
+        <field name="MF">JST Sales</field>
+        <field name="SNAPEDA_PACKAGE_ID">121921</field>
+        <field name="Package">NON STANDARD-3 JST</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B3B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">N/A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B3B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=snap</field>
+        <field name="MP">B3B-PH-SM4-TB(LF)(SN)</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="Availability">In Stock</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.6 mm</field>
+        <field name="Footprint">NewLibrary:JST_B3B-PH-SM4-TB_LF__SN_</field>
+        <field name="Datasheet"/>
+        <field name="Description">B3B-PH-SM4-TB(LF)(SN)</field>
+      </fields>
+      <libsource lib="Libglobal" part="B3B-PH-SM4-TB_LF__SN_" description="Connector Header Surface Mount 3 position 0.079 (2.00mm)"/>
+      <property name="MF" value="JST Sales"/>
+      <property name="SNAPEDA_PACKAGE_ID" value="121921"/>
+      <property name="Package" value="NON STANDARD-3 JST"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/B3B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/B3B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=snap"/>
+      <property name="MP" value="B3B-PH-SM4-TB(LF)(SN)"/>
+      <property name="MANUFACTURER" value="JST Sales America Inc."/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="6.6 mm"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc2f490b-0770-433d-adc7-f55fc027c6eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="S1"/>
+            <pin num="S2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="K1">
+      <value>G6K-2F-Y DC3</value>
+      <footprint>Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y</footprint>
+      <datasheet>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <description>G6K-2F-Y-DC3</description>
+      <fields>
+        <field name="Footprint">Relay_SMD:Relay_DPDT_Omron_G6K-2F-Y</field>
+        <field name="Datasheet">http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</field>
+        <field name="Description">G6K-2F-Y-DC3</field>
+      </fields>
+      <libsource lib="Relay" part="G6K-2" description="Miniature 2-pole relay, Single-side Stable"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="Miniature Relay Dual Pole DPDT Omron"/>
+      <property name="ki_fp_filters" value="Relay*DPDT*Omron*G6K?2*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b1fd8ae-e859-4f45-8811-c3aedcfee720</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>820nH</value>
+      <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
+      <description>LQH32PN1R0NN0L</description>
+      <fields>
+        <field name="Footprint">Inductor_SMD:L_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">LQH32PN1R0NN0L</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c52241fe-9b6f-4e1e-8e3a-f8c7fea81f61</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>47uH</value>
+      <footprint>Inductor_SMD:L_Bourns-SRN4018</footprint>
+      <description>SRN4018-470M</description>
+      <fields>
+        <field name="Footprint">Inductor_SMD:L_Bourns-SRN4018</field>
+        <field name="Datasheet"/>
+        <field name="Description">SRN4018-470M</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <property name="ki_fp_filters" value="Choke_* *Coil* Inductor_* L_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc14e30c-ccd1-4eca-b731-e01c245363a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>2N7002LT1G</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-3</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">2N7002LT1G</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f3424a9-46b6-49df-9d83-fda36580a9e9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <description>2N7002LT1G</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-3</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">2N7002LT1G</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6d06f6d-ac6f-403f-9b08-eabb4548117f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-0710KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62fa5f8f-5bb7-4527-8396-89217864ee8e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>ERA-6AEB471V</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">ERA-6AEB471V</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5e0fce6-737f-496e-9d19-183a575ed3ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>1</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>118ad041-948a-44e1-8859-0e0a68b91725</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-0733RL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-0733RL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a241facc-fb8e-4073-afe8-8f914733ee0c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>ERA-6AEB471V</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">ERA-6AEB471V</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97842ef5-f3dc-48fd-99a8-d8890d5b5e8a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>100m</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>980a085d-856e-4e9d-8f80-f5694df38b43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>280k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-07280KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-07280KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64dfa99f-18d1-4a5d-9add-fdf80c9a9ab8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-0710KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d606a5a3-1f18-44cd-99d8-016181f737b9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>100m</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4bc45734-a3db-4d87-8ffb-6c33b302435c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a69a257-4ab5-4615-bb92-15cd4e2d1ad6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-07100KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5aa28ff8-15c7-46cc-9898-1b1346012081</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>19.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-0719K1L</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-0719K1L</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf86f250-43f8-4a8a-88b8-c1588fb5f96d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-07100KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>551edfcc-dd80-4f88-9275-dbec10895cdd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-071KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43d84ee2-c747-4283-98c7-767a04ce2eef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-07100KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c5de201-ecb3-4973-b5a9-48ed08cf6a01</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-0710KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>706c2da5-dea9-4e72-935b-9da7061f6614</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-071KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1b0fe98-6230-4646-85e6-963c1f8b6a18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-07100KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90b328cc-3315-4c82-9c86-89581e383d22</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-071KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d268f256-e4ee-4279-88d0-baaed853610a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-0733RL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-0733RL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c21f79e8-281c-4700-bec5-737d2261f4c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-0733RL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-0733RL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08fca041-a4c3-4d20-ba13-45b493dcb584</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>33</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-0733RL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-0733RL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e78812d8-3ac8-4d87-b6aa-ab2d112b6c89</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>RC0805FR-0710KL</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84877c6b-c4a2-4a81-8bea-e3ae86a6c424</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>B3U-1000P(M)</value>
+      <footprint>NewLibrary:SW_B3U-1000PM</footprint>
+      <description>B3U-1000PM</description>
+      <fields>
+        <field name="Footprint">NewLibrary:SW_B3U-1000PM</field>
+        <field name="Datasheet"/>
+        <field name="Description">B3U-1000PM</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57b65bc4-e48e-41d1-89e1-bd1464bfc12b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <description>TPS7A2033PDBVR</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description">TPS7A2033PDBVR</field>
+      </fields>
+      <libsource lib="Libglobal" part="TPS7A2033" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41a8251a-00d5-4d86-b9bf-70b10a693f9c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>~</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <description>TPS7A2033PDBVR</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet"/>
+        <field name="Description">TPS7A2033PDBVR</field>
+      </fields>
+      <libsource lib="Libglobal" part="TPS7A2033" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0cf4677-8707-40c3-a035-029a602d4df2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>LMR51606FPWM</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <description>LMR51606XFQDBVRQ1</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description">LMR51606XFQDBVRQ1</field>
+      </fields>
+      <libsource lib="Libglobal" part="LMR51606FPWM" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae810c5f-868d-4dda-aea6-2cf5b45b88f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="6"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>~</value>
+      <footprint>Package_SO:SOP-16_4.4x10.4mm_P1.27mm</footprint>
+      <description>ES9023P</description>
+      <fields>
+        <field name="Footprint">Package_SO:SOP-16_4.4x10.4mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">ES9023P</field>
+      </fields>
+      <libsource lib="Libglobal" part="ES9023" description=""/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e88da8b5-8e2c-4048-af2d-6ff93b098a32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>FSC-BT1026E</value>
+      <footprint>NewLibrary:FSC-BT1026x</footprint>
+      <datasheet>https://www.feasycom.net/Content/upload/pdf/202313049/FSC-BT1026x-Datasheet-V1.71-EN.pdf?rnd=133</datasheet>
+      <description>FSC-BT1026E</description>
+      <fields>
+        <field name="Footprint">NewLibrary:FSC-BT1026x</field>
+        <field name="Datasheet">https://www.feasycom.net/Content/upload/pdf/202313049/FSC-BT1026x-Datasheet-V1.71-EN.pdf?rnd=133</field>
+        <field name="Description">FSC-BT1026E</field>
+      </fields>
+      <libsource lib="Libglobal" part="FSC-BT1026x" description="Bluetooth 5.1 Dual-Mode, QCC5125"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="Bluetooth BLE BT GAP GATT SBC AAC aptX"/>
+      <property name="ki_fp_filters" value="BM78SPPS5XC2*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a7bfcf4-2d60-4f3b-b17e-73bc1d62186e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="34"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="9"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="39"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="26"/>
+            <pin num="42"/>
+            <pin num="33"/>
+            <pin num="35"/>
+            <pin num="1"/>
+            <pin num="22"/>
+            <pin num="52"/>
+            <pin num="32"/>
+            <pin num="50"/>
+            <pin num="31"/>
+            <pin num="36"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="40"/>
+            <pin num="41"/>
+            <pin num="43"/>
+            <pin num="44"/>
+            <pin num="45"/>
+            <pin num="46"/>
+            <pin num="47"/>
+            <pin num="48"/>
+            <pin num="49"/>
+            <pin num="51"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Y1">
+      <value>SG-210STF 50.0000ML</value>
+      <footprint>Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm</footprint>
+      <datasheet>https://support.epson.biz/td/api/doc_check.php?mode=dl&amp;lang=en&amp;Parts=SG-210STF</datasheet>
+      <description>SG-210STF 50.0000ML</description>
+      <fields>
+        <field name="Footprint">Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm</field>
+        <field name="Datasheet">https://support.epson.biz/td/api/doc_check.php?mode=dl&amp;lang=en&amp;Parts=SG-210STF</field>
+        <field name="Description">SG-210STF 50.0000ML</field>
+      </fields>
+      <libsource lib="Oscillator" part="SG-210STF" description="CMOS Crystal Oscillator SPXO"/>
+      <property name="Sheetname" value="Root"/>
+      <property name="Sheetfile" value="Bluetooth_L_31.kicad_sch"/>
+      <property name="ki_keywords" value="Crystal Clock Oscillator"/>
+      <property name="ki_fp_filters" value="Oscillator*SMD*SeikoEpson*SG210*2.5x2.0mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06c3f16f-e563-41df-8423-27df30a3bbb0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Polarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Inductor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="NetTie_2">
+      <description>Net tie, 2 pins</description>
+      <footprints>
+        <fp>Net*Tie*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NT</field>
+        <field name="Value">NetTie_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Net tie, 2 pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+        <field name="Description">100V 0.15A standard switching diode, DO-35</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="B360">
+      <description>60V 3A Schottky Barrier Rectifier Diode, SMC</description>
+      <docs>http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</docs>
+      <footprints>
+        <fp>D*SMC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B360</field>
+        <field name="Footprint">Diode_SMD:D_SMC</field>
+        <field name="Datasheet">http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf</field>
+        <field name="Description">60V 3A Schottky Barrier Rectifier Diode, SMC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SMAJ48A">
+      <description>400W unidirectional Transient Voltage Suppressor, 48.0Vr, SMA(DO-214AC)</description>
+      <docs>https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMAJ48A</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.littelfuse.com/media?resourcetype=datasheets&amp;itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&amp;filename=smaj-datasheet</field>
+        <field name="Description">400W unidirectional Transient Voltage Suppressor, 48.0Vr, SMA(DO-214AC)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Libglobal" part="1727010">
+      <description>PCB Terminal Screw 3.81mm 16AWG 200V 13.5A 2 Position COMBICON MKDS Series | Phoenix Contact 1727010</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1727010</field>
+        <field name="Footprint">1727010:PHOENIX_1727010</field>
+        <field name="Datasheet"/>
+        <field name="Description">PCB Terminal Screw 3.81mm 16AWG 200V 13.5A 2 Position COMBICON MKDS Series | Phoenix Contact 1727010</field>
+        <field name="MF">Phoenix Contact</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/1727010/Phoenix+Contact/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">03.03.2021</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/1727010/Phoenix+Contact/view-part/?ref=snap</field>
+        <field name="MP">1727010</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Libglobal" part="1727023">
+      <description>PCB Terminal Screw 3.81mm 16AWG 200V 13.5A 3 Position COMBICON MKDS Series | Phoenix Contact 1727023</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1727023</field>
+        <field name="Footprint">1727023:PHOENIX_1727023</field>
+        <field name="Datasheet"/>
+        <field name="Description">PCB Terminal Screw 3.81mm 16AWG 200V 13.5A 3 Position COMBICON MKDS Series | Phoenix Contact 1727023</field>
+        <field name="MF">Phoenix Contact</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/1727023/Phoenix+Contact/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">03.03.2021</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/1727023/Phoenix+Contact/view-part/?ref=snap</field>
+        <field name="MP">1727023</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">Phoenix Contact</field>
+      </fields>
+      <pins>
+        <pin num="01" name="01" type="passive"/>
+        <pin num="02" name="02" type="passive"/>
+        <pin num="03" name="03" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Libglobal" part="B3B-PH-SM4-TB_LF__SN_">
+      <description>Connector Header Surface Mount 3 position 0.079 (2.00mm)</description>
+      <fields>
+        <field name="Reference">J4</field>
+        <field name="Value">B3B-PH-SM4-TB_LF__SN_</field>
+        <field name="Footprint">NewLibrary:JST_B3B-PH-SM4-TB_LF__SN_</field>
+        <field name="Datasheet"/>
+        <field name="Description">Connector Header Surface Mount 3 position 0.079 (2.00mm)</field>
+        <field name="MF">JST Sales</field>
+        <field name="SNAPEDA_PACKAGE_ID">121921</field>
+        <field name="Package">NON STANDARD-3 JST</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/B3B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">N/A</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/B3B-PH-SM4-TB(LF)(SN)/JST/view-part/?ref=snap</field>
+        <field name="MP">B3B-PH-SM4-TB(LF)(SN)</field>
+        <field name="MANUFACTURER">JST Sales America Inc.</field>
+        <field name="Availability">In Stock</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">6.6 mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="S1" name="4" type="passive"/>
+        <pin num="S2" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Libglobal" part="ES9023">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BCK" type="input"/>
+        <pin num="2" name="LRCK" type="input"/>
+        <pin num="3" name="SDI" type="input"/>
+        <pin num="4" name="DIF" type="input"/>
+        <pin num="5" name="AVCC" type="input"/>
+        <pin num="6" name="VREG" type="input"/>
+        <pin num="7" name="AOUTL" type="input"/>
+        <pin num="8" name="AOUTR" type="input"/>
+        <pin num="9" name="CP" type="input"/>
+        <pin num="10" name="CN" type="input"/>
+        <pin num="11" name="NEG" type="input"/>
+        <pin num="12" name="AGND" type="input"/>
+        <pin num="13" name="MCLK" type="input"/>
+        <pin num="14" name="DGND" type="input"/>
+        <pin num="15" name="MUTE#" type="input"/>
+        <pin num="16" name="ZD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Libglobal" part="FSC-BT1026x">
+      <description>Bluetooth 5.1 Dual-Mode, QCC5125</description>
+      <docs>https://www.feasycom.net/Content/upload/pdf/202313049/FSC-BT1026x-Datasheet-V1.71-EN.pdf?rnd=133</docs>
+      <footprints>
+        <fp>BM78SPPS5XC2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FSC-BT1026E</field>
+        <field name="Footprint">Bluetooth:FSC-BT1026x</field>
+        <field name="Datasheet">https://www.feasycom.net/Content/upload/pdf/202313049/FSC-BT1026x-Datasheet-V1.71-EN.pdf?rnd=133</field>
+        <field name="Description">Bluetooth 5.1 Dual-Mode, QCC5125</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="AIO4/LED4" type="bidirectional"/>
+        <pin num="3" name="AIO5/LED5" type="bidirectional"/>
+        <pin num="4" name="PCM_CLK/PI016" type="bidirectional"/>
+        <pin num="5" name="PCM_IN/PI019" type="bidirectional"/>
+        <pin num="6" name="PCM_OUT/PI018" type="bidirectional"/>
+        <pin num="7" name="PCM_SYNC/PIO17" type="bidirectional"/>
+        <pin num="8" name="RESET" type="input"/>
+        <pin num="9" name="PCM_MCLK_0UT/PI015" type="bidirectional"/>
+        <pin num="10" name="PIO6" type="bidirectional"/>
+        <pin num="11" name="PIO7" type="bidirectional"/>
+        <pin num="12" name="PIO8" type="bidirectional"/>
+        <pin num="13" name="BT_TX/PI05" type="bidirectional"/>
+        <pin num="14" name="BT_RX/PI04" type="bidirectional"/>
+        <pin num="15" name="BT_CTS/PIO3" type="bidirectional"/>
+        <pin num="16" name="BT_RTS/Pl02" type="bidirectional"/>
+        <pin num="17" name="AIO0/LED0" type="bidirectional"/>
+        <pin num="18" name="AIO1/LED1" type="bidirectional"/>
+        <pin num="19" name="AIO2/LED2" type="bidirectional"/>
+        <pin num="20" name="PIO60" type="bidirectional"/>
+        <pin num="21" name="PIO61" type="bidirectional"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="PIO52" type="bidirectional"/>
+        <pin num="24" name="PIO53" type="bidirectional"/>
+        <pin num="25" name="PIO54" type="bidirectional"/>
+        <pin num="26" name="NC" type="no_connect"/>
+        <pin num="27" name="PIO20" type="bidirectional"/>
+        <pin num="28" name="PIO21" type="input"/>
+        <pin num="29" name="VCHG_SENSE" type="input"/>
+        <pin num="30" name="CHG_EXT" type="output"/>
+        <pin num="31" name="VDD_USB/3.3V_OUT" type="power_out"/>
+        <pin num="32" name="GND" type="passive"/>
+        <pin num="33" name="VBAT_IN" type="power_in"/>
+        <pin num="34" name="SYS_CTRL" type="input"/>
+        <pin num="35" name="1.8V_OUT" type="power_in"/>
+        <pin num="36" name="VDD_IO" type="power_in"/>
+        <pin num="37" name="USB_DP" type="bidirectional"/>
+        <pin num="38" name="USB_DN" type="bidirectional"/>
+        <pin num="39" name="VCC_CHG" type="input"/>
+        <pin num="40" name="MIC_RP" type="input"/>
+        <pin num="41" name="MIC_RN" type="input"/>
+        <pin num="42" name="NC" type="no_connect"/>
+        <pin num="43" name="MIC_LP" type="input"/>
+        <pin num="44" name="MIC_LN" type="input"/>
+        <pin num="45" name="MIC_BIAS" type="input"/>
+        <pin num="46" name="AUDIO_HPR_N" type="output"/>
+        <pin num="47" name="AUDIO_HPR_P" type="output"/>
+        <pin num="48" name="AUDIO_HPL_N" type="output"/>
+        <pin num="49" name="AUDIO_HPL_P" type="output"/>
+        <pin num="50" name="GND" type="passive"/>
+        <pin num="51" name="RF_OUT" type="output"/>
+        <pin num="52" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Libglobal" part="LMR51606FPWM">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CB" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="VIN" type="input"/>
+        <pin num="6" name="SW" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Libglobal" part="TPS7A2033">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Libglobal" part="U.FL-R-SMT-1_10_">
+      <description>U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">U.FL-R-SMT-1_10_</field>
+        <field name="Footprint">U.FL-R-SMT-1_10_:HRS_U.FL-R-SMT-1_10_</field>
+        <field name="Datasheet"/>
+        <field name="Description">U.FL (UMCC) Connector Receptacle, Male Pin 50 Ohms Surface Mount Solder</field>
+        <field name="MF">Hirose</field>
+        <field name="PACKAGE">None</field>
+        <field name="PRICE">0.71 USD</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/U.FL-R-SMT-1(10)/Hirose+Electric+Co+Ltd/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/U.FL-R-SMT-1(10)/Hirose+Electric+Co+Ltd/view-part/?ref=snap</field>
+        <field name="MP">U.FL-R-SMT-1(10)</field>
+        <field name="Price">None</field>
+        <field name="Availability">In Stock</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="MANUFACTURER">Hirose</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Oscillator" part="SG-210STF">
+      <description>CMOS Crystal Oscillator SPXO</description>
+      <docs>https://support.epson.biz/td/api/doc_check.php?mode=dl&amp;lang=en&amp;Parts=SG-210STF</docs>
+      <footprints>
+        <fp>Oscillator*SMD*SeikoEpson*SG210*2.5x2.0mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">SG-210STF</field>
+        <field name="Footprint">Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm</field>
+        <field name="Datasheet">https://support.epson.biz/td/api/doc_check.php?mode=dl&amp;lang=en&amp;Parts=SG-210STF</field>
+        <field name="Description">CMOS Crystal Oscillator SPXO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{ST}" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="G6K-2">
+      <description>Miniature 2-pole relay, Single-side Stable</description>
+      <docs>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</docs>
+      <footprints>
+        <fp>Relay*DPDT*Omron*G6K?2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G6K-2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</field>
+        <field name="Description">Miniature 2-pole relay, Single-side Stable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+        <field name="Description">0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>${KICAD9_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>${KICAD9_SYMBOL_DIR}/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Libglobal">
+      <uri>E:/Projet Kicad/Lib/Libglobal.kicad_sym</uri>
+    </library>
+    <library logical="Oscillator">
+      <uri>${KICAD9_SYMBOL_DIR}/Oscillator.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>${KICAD9_SYMBOL_DIR}/Relay.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD9_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>${KICAD9_SYMBOL_DIR}/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3VAna" class="Alim_LV,Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="OUT_5" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="AVCC_5" pintype="input"/>
+      <node ref="Y1" pin="4" pinfunction="Vcc_4" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3.3VNum" class="Alim_LV,Default">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="OUT_5" pintype="input"/>
+      <node ref="U5" pin="33" pinfunction="VBAT_IN_33" pintype="power_in"/>
+      <node ref="U5" pin="36" pinfunction="VDD_IO_36" pintype="power_in"/>
+    </net>
+    <net code="3" name="+5V" class="Alim_LV,Default">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN_1" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="IN_1" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="4" name="/AOUTL" class="AudioAna,Default">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="/AOUTR" class="AudioAna,Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="K1" pin="4" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/MCLK" class="Clock,Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="MCLK_13" pintype="input"/>
+    </net>
+    <net code="7" name="/MUTE" class="Signal,Default">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="MUTE#_15" pintype="input"/>
+    </net>
+    <net code="8" name="/PCM_CLK" class="Signal,Default">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="BCK_1" pintype="input"/>
+    </net>
+    <net code="9" name="/PCM_OUT" class="Signal,Default">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="SDI_3" pintype="input"/>
+    </net>
+    <net code="10" name="/PCM_SYNC" class="Signal,Default">
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="LRCK_2" pintype="input"/>
+    </net>
+    <net code="11" name="/RX" class="UART,Default">
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="BT_TX/PI05_13" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Relay" class="Statique,Default">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="AIO0/LED0_17" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/SYS_CTRL" class="Statique,Default">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="34" pinfunction="SYS_CTRL_34" pintype="input"/>
+    </net>
+    <net code="14" name="/Statut_LED" class="Statique,Default">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="AIO1/LED1_18" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/TX" class="UART,Default">
+      <node ref="J4" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="BT_RX/PI04_14" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="GND" class="Alim_LV,Default">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A2_2" pintype="passive"/>
+      <node ref="J1" pin="01" pinfunction="01_01" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="S1" pinfunction="4_S1" pintype="passive"/>
+      <node ref="J4" pin="S2" pinfunction="5_S2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="input"/>
+      <node ref="U4" pin="14" pinfunction="DGND_14" pintype="input"/>
+      <node ref="U4" pin="4" pinfunction="DIF_4" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U5" pin="22" pinfunction="GND_22" pintype="passive"/>
+      <node ref="U5" pin="32" pinfunction="GND_32" pintype="passive"/>
+      <node ref="U5" pin="50" pinfunction="GND_50" pintype="passive"/>
+      <node ref="U5" pin="52" pinfunction="GND_52" pintype="passive"/>
+    </net>
+    <net code="17" name="GNDA" class="Alim_LV,Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J2" pin="01" pinfunction="01_01" pintype="passive"/>
+      <node ref="J3" pin="01" pinfunction="01_01" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="input"/>
+      <node ref="U4" pin="12" pinfunction="AGND_12" pintype="input"/>
+      <node ref="Y1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="18" name="Net-(C6-Pad1)" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(C15-Pad1)" class="Default">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(D1-K)" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A1_1" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D3-A)" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="K1" pin="8" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D4-A)" class="Default">
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D4-K)" class="Default">
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(J2-Pad02)" class="Default">
+      <node ref="J2" pin="02" pinfunction="02_02" pintype="passive"/>
+      <node ref="K1" pin="7" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(J2-Pad03)" class="Default">
+      <node ref="J2" pin="03" pinfunction="03_03" pintype="passive"/>
+      <node ref="K1" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(J3-Pad02)" class="Default">
+      <node ref="J3" pin="02" pinfunction="02_02" pintype="passive"/>
+      <node ref="K1" pin="6" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(J3-Pad03)" class="Default">
+      <node ref="J3" pin="03" pinfunction="03_03" pintype="passive"/>
+      <node ref="K1" pin="3" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(Q1-G)" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(Q2-G)" class="Default">
+      <node ref="Q2" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(U3-CB)" class="Default">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="CB_1" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(U3-EN)" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="EN_4" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(U3-FB)" class="Default">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="FB_3" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U3-SW)" class="Default">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="SW_6" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(U3-VIN)" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="VIN_5" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(U4-AOUTL)" class="Default">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="AOUTL_7" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(U4-AOUTR)" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="AOUTR_8" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(U4-CN)" class="Default">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="CN_10" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(U4-CP)" class="Default">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="CP_9" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(U4-NEG)" class="Default">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="NEG_11" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(U4-VREG)" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="VREG_6" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(U5-PCM_CLK/PI016)" class="Signal,Default">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="PCM_CLK/PI016_4" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Net-(U5-PCM_OUT/PI018)" class="Signal,Default">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="PCM_OUT/PI018_6" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="Net-(U5-PCM_SYNC/PIO17)" class="Signal,Default">
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="PCM_SYNC/PIO17_7" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(U5-RESET)" class="Default">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="RESET_8" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(U5-RF_OUT)" class="Default">
+      <node ref="U5" pin="51" pinfunction="RF_OUT_51" pintype="output"/>
+    </net>
+    <net code="46" name="Net-(Y1-OUT)" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="Y1" pin="3" pinfunction="OUT_3" pintype="output"/>
+    </net>
+    <net code="47" name="Net-(Y1-~{ST})" class="Default">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="Y1" pin="1" pinfunction="~{ST}_1" pintype="input"/>
+    </net>
+    <net code="48" name="Vin" class="Puissance_HV,Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J1" pin="02" pinfunction="02_02" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(U1-NC-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="NC_4" pintype="no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U2-NC-Pad4)" class="Default">
+      <node ref="U2" pin="4" pinfunction="NC_4" pintype="no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U4-ZD-Pad16)" class="Default">
+      <node ref="U4" pin="16" pinfunction="ZD_16" pintype="input+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U5-1.8V_OUT-Pad35)" class="Default">
+      <node ref="U5" pin="35" pinfunction="1.8V_OUT_35" pintype="power_in+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U5-AIO2/LED2-Pad19)" class="Signal,Default">
+      <node ref="U5" pin="19" pinfunction="AIO2/LED2_19" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(U5-AIO4/LED4-Pad2)" class="Signal,Default">
+      <node ref="U5" pin="2" pinfunction="AIO4/LED4_2" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(U5-AIO5/LED5-Pad3)" class="Signal,Default">
+      <node ref="U5" pin="3" pinfunction="AIO5/LED5_3" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(U5-AUDIO_HPL_N-Pad48)" class="Default">
+      <node ref="U5" pin="48" pinfunction="AUDIO_HPL_N_48" pintype="output+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U5-AUDIO_HPL_P-Pad49)" class="Default">
+      <node ref="U5" pin="49" pinfunction="AUDIO_HPL_P_49" pintype="output+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U5-AUDIO_HPR_N-Pad46)" class="Default">
+      <node ref="U5" pin="46" pinfunction="AUDIO_HPR_N_46" pintype="output+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U5-AUDIO_HPR_P-Pad47)" class="Default">
+      <node ref="U5" pin="47" pinfunction="AUDIO_HPR_P_47" pintype="output+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U5-BT_CTS/PIO3-Pad15)" class="Signal,Default">
+      <node ref="U5" pin="15" pinfunction="BT_CTS/PIO3_15" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(U5-BT_RTS/Pl02-Pad16)" class="Signal,Default">
+      <node ref="U5" pin="16" pinfunction="BT_RTS/Pl02_16" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(U5-CHG_EXT-Pad30)" class="Default">
+      <node ref="U5" pin="30" pinfunction="CHG_EXT_30" pintype="output+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U5-MIC_BIAS-Pad45)" class="Default">
+      <node ref="U5" pin="45" pinfunction="MIC_BIAS_45" pintype="input+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U5-MIC_LN-Pad44)" class="Default">
+      <node ref="U5" pin="44" pinfunction="MIC_LN_44" pintype="input+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U5-MIC_LP-Pad43)" class="Default">
+      <node ref="U5" pin="43" pinfunction="MIC_LP_43" pintype="input+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U5-MIC_RN-Pad41)" class="Default">
+      <node ref="U5" pin="41" pinfunction="MIC_RN_41" pintype="input+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U5-MIC_RP-Pad40)" class="Default">
+      <node ref="U5" pin="40" pinfunction="MIC_RP_40" pintype="input+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U5-NC-Pad26)" class="Default">
+      <node ref="U5" pin="26" pinfunction="NC_26" pintype="no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U5-NC-Pad42)" class="Default">
+      <node ref="U5" pin="42" pinfunction="NC_42" pintype="no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U5-PCM_IN/PI019-Pad5)" class="Signal,Default">
+      <node ref="U5" pin="5" pinfunction="PCM_IN/PI019_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U5-PCM_MCLK_0UT/PI015-Pad9)" class="Signal,Default">
+      <node ref="U5" pin="9" pinfunction="PCM_MCLK_0UT/PI015_9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U5-PIO6-Pad10)" class="Default">
+      <node ref="U5" pin="10" pinfunction="PIO6_10" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="unconnected-(U5-PIO7-Pad11)" class="Default">
+      <node ref="U5" pin="11" pinfunction="PIO7_11" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="unconnected-(U5-PIO8-Pad12)" class="Default">
+      <node ref="U5" pin="12" pinfunction="PIO8_12" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="unconnected-(U5-PIO20-Pad27)" class="Default">
+      <node ref="U5" pin="27" pinfunction="PIO20_27" pintype="bidirectional"/>
+    </net>
+    <net code="76" name="unconnected-(U5-PIO21-Pad28)" class="Default">
+      <node ref="U5" pin="28" pinfunction="PIO21_28" pintype="input"/>
+    </net>
+    <net code="77" name="unconnected-(U5-PIO52-Pad23)" class="Default">
+      <node ref="U5" pin="23" pinfunction="PIO52_23" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="unconnected-(U5-PIO53-Pad24)" class="Default">
+      <node ref="U5" pin="24" pinfunction="PIO53_24" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="unconnected-(U5-PIO54-Pad25)" class="Default">
+      <node ref="U5" pin="25" pinfunction="PIO54_25" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="unconnected-(U5-PIO60-Pad20)" class="Default">
+      <node ref="U5" pin="20" pinfunction="PIO60_20" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="unconnected-(U5-PIO61-Pad21)" class="Default">
+      <node ref="U5" pin="21" pinfunction="PIO61_21" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="unconnected-(U5-USB_DN-Pad38)" class="Default">
+      <node ref="U5" pin="38" pinfunction="USB_DN_38" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="unconnected-(U5-USB_DP-Pad37)" class="Default">
+      <node ref="U5" pin="37" pinfunction="USB_DP_37" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="unconnected-(U5-VCC_CHG-Pad39)" class="Default">
+      <node ref="U5" pin="39" pinfunction="VCC_CHG_39" pintype="input+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U5-VCHG_SENSE-Pad29)" class="Default">
+      <node ref="U5" pin="29" pinfunction="VCHG_SENSE_29" pintype="input+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U5-VDD_USB/3.3V_OUT-Pad31)" class="Signal,Default">
+      <node ref="U5" pin="31" pinfunction="VDD_USB/3.3V_OUT_31" pintype="power_out+no_connect"/>
+    </net>
+  </nets>
+</export>
