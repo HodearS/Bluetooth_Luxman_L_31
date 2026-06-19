@@ -1,6 +1,4 @@
-/**********************************************/
-/*******************FRENCH*********************/
-/**********************************************/
+### 🇫🇷 Version Française
                     
 # Luxman L-31 - Module Bluetooth & DAC Interne
 
@@ -36,9 +34,7 @@ Ce dépôt héberge uniquement les fichiers sources du projet KiCad (`.kicad_pro
 L'installation de ce module implique d'intervenir à l'intérieur d'un amplificateur relié au secteur et de manipuler des tensions continues de puissance. Ces modifications s'adressent à des personnes ayant les compétences requises en électronique. Toute modification est effectuée à vos propres risques.
 
 
-/**********************************************/
-/*******************ENGLISH********************/
-/**********************************************/
+### 🇬🇧 English Version
 
 # Luxman L-31 - Internal Bluetooth & DAC Module
 
