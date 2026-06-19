@@ -29,7 +29,7 @@ Points clés de la conception :
 
 ## Structure du dépôt
 
-Ce dépôt héberge uniquement les fichiers sources du projet KiCad (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`). Les fichiers de fabrication (Gerbers, nomenclature BOM, fichiers de placement CPL) ne sont pas versionnés et doivent être générés à la demande pour la production.
+Ce dépôt héberge uniquement les fichiers sources du projet KiCad (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb` et BOM). Les fichiers de fabrication (Gerbers, fichiers de placement CPL) ne sont pas versionnés.
 
 ## Avertissement de sécurité
 
@@ -67,7 +67,7 @@ Key design points:
 
 ## Repository Structure
 
-This repository hosts only the KiCad project source files (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`). Manufacturing files (Gerbers, BOM, CPL placement files) are not versioned and should be generated on demand for production.
+This repository hosts only the KiCad project source files (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb` and BOM). Manufacturing files (Gerbers, CPL placement files) are not versioned.
 
 ## Safety Warning
 
